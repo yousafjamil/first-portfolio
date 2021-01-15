@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eeee;
+}
+
+.container {
+  margin-top: 8%;
+  border: 2px soiled blueviolet;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+}
+.logo-img {
+  margin-left: 3rem;
+  height: 70px;
+  width: 90px;
+}
+.navbar-brand {
+  font-size: 2rem;
+  color: white;
+}
+.navbar-toggler :hover {
+  background-color: cornsilk;
+  color: aqua;
+}
+.form {
+  border: 3px solid green;
+  padding: 3rem;
+  border-radius: 2rem;
+  background-color: rgb(158, 90, 90);
+  color: antiquewhite;
+}
+
+.home {
+  background-image: url("./components/homeimage.jpg");
+  height: 50vh;
+
+  background-repeat: round;
+
+  margin-top: 3rem;
+  justify-content: center;
+  text-align: center;
+}
+.container-fluid {
+}
+
+.website-name {
+  padding-top: 4rem;
+  color: darkmagenta;
+}
+
+.website-name :hover {
+  background-color: deeppink;
+  color: dodgerblue;
+  transform: translate3d(23);
+}
+.services-container {
+  display: grid;
+}
+
+.main-footer-wrap {
+  background-color: darkred;
+  color: rgb(6, 27, 6);
+  bottom: 0px;
+}
+.card {
+  display: grid;
+  border: 2px solid brown;
+  border-radius: 2rem;
+  transition: all 3s linear;
+  column-gap: 3rem;
+  margin-bottom: 3rem;
+}
+.card-container {
+  transition: all 3s ease-in-out;
+}
+.card-image {
+  height: 200px;
+  margin-bottom: 3rem;
+}
+.card-image :hover {
+  border: 4px solid tomato;
+  color: white;
+}
+.about-container {
+  margin-top: 5rem;
+}
+
+.heading-of-product {
+  text-align: center;
+  justify-self: center;
+  text-transform: uppercase;
+  color: rgb(15, 82, 82);
+  background-color: coral;
+  border: darkkhaki;
+  border-radius: 2rem;
+}
+.heading-of-product:hover {
+  color: darkblue;
+  background-color: darkorchid;
+  text-shadow: deeppink;
+  text-emphasis: inherit;
+}
+
+.typed-style {
+  background-color: transparent;
+  font-size: 2rem;
+  color: brown;
+  font-family: "Courier New", Courier, monospace;
+  padding: 2rem;
+  width: 100vw;
+}
+.contact-header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: crimson;
+  text-shadow: darkolivegreen;
+  cursor: pointer;
+  padding-left: 2rem;
+  color: beige;
+}
+
+.about-main-wrap {
+  background: darkslategrey;
+}
