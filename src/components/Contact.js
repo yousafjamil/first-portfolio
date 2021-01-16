@@ -8,36 +8,36 @@ function Contact() {
         <div className="col-6">
           <form className="form">
             <h3 className="align-item-center">Sign up form</h3>
-            <div class="form-group">
-              <label for="forname">Name</label>
+            <div className="form-group">
+              <label>Name</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 placeholder="enter your  name"
               />
             </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
+            <div className="form-group">
+              <label>Email address</label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 aria-describedby="emailHelp"
                 placeholder="Enter email address"
               />
-              <small id="emailHelp" class="form-text text-muted">
+              <small id="emailHelp" className="form-text text-muted">
                 We'll never share your email with anyone else.
               </small>
             </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
+            <div className="form-group">
+              <label>Password</label>
               <input
                 type="password"
-                class="form-control"
+                className="form-control"
                 placeholder="Password"
               />
             </div>
 
-            <button type="submit" class="btn btn-outline-info w-100">
+            <button type="submit" className="btn btn-outline-info w-100">
               Submit
             </button>
           </form>

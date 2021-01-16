@@ -58,7 +58,39 @@ body {
   transform: translate3d(23);
 }
 .services-container {
+  background-color: #007fb0 !important;
+}
+.services-1 {
+  background-color: white;
+  padding: 30px;
+  position: absolute;
+  top: 3rem;
+  bottom: 3rem;
   display: grid;
+  -ms-grid-column-span: unset;
+
+  border: 10px;
+  border-radius: 3rem solid green;
+  z-index: 2;
+}
+.services-1:hover {
+  transition: all 1s linear;
+  background: yellowgreen;
+  color: blueviolet;
+  border: crimson;
+  border-radius: 2px solid red;
+}
+.services h1 {
+  margin: 90px auto 50px;
+  text-align: center;
+  color: #fff;
+}
+.main {
+  max-width: 100%;
+  height: 380px;
+  text-align: center;
+  position: center;
+  cursor: pointer;
 }
 
 .main-footer-wrap {
@@ -124,4 +156,12 @@ body {
 
 .about-main-wrap {
   background: darkslategrey;
+}
+
+.services {
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  margin: 90px auto;
+  text-align: center;
 }

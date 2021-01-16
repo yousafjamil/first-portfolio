@@ -1,37 +1,44 @@
 import React from "react";
-import { storeProducts } from "./data";
+
 function Services() {
   return (
-    <div className="container services-container">
-      <h1 className="heading-of-product">
-        OUR Products is available here in cheap rates
-      </h1>
-      <div className="row">
-        {storeProducts.map((item) => {
-          return (
-            <>
-              <div
-                className="col card-container
-               col-md-3 col-lg-4 "
-              >
-                <div class="card">
-                  <img
-                    class="card-image "
-                    src={item.img}
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">{item.title}</h5>
-                    <p class="card-text">$ {item.price}</p>
-                    <a href="#" class="btn btn-primary">
-                      click for detail
-                    </a>
-                  </div>
-                </div>
+    <div className="services-container">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="main">
+              <div className="services-1">
+                <h1>App Designing</h1>
+                <p>
+                  Note that the development build is not optimized. To create a
+                  production build, use npm run build.
+                </p>
               </div>
-            </>
-          );
-        })}
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="main">
+              <div className="services-1">
+                <h1>programming</h1>
+                <p>
+                  Note that the development build is not optimized. To create a
+                  production build, use npm run build.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="main">
+              <div className="services-1">
+                <h1>App Development</h1>
+                <p>
+                  Note that the development build is not optimized. To create a
+                  production build, use npm run build.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

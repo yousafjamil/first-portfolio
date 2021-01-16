@@ -7,7 +7,7 @@ function About() {
         <div className="row">
           <div className="col-6">
             <h1>About Us</h1>
-            <img src={aboutImage} />
+            <img src={aboutImage} alt="about imag" />
           </div>
           <div className="col-6 about-container">
             <h1>My Skill</h1>
@@ -23,18 +23,11 @@ function About() {
             </strong>
             <h2>you can contact me on social media</h2>
             <ul>
-              <li>
-                <i class="fab fa-2x fa-whatsapp-square">
-                  whatsapp no: +923448307585
-                </i>
-              </li>
-
-              <i class="fab fa-2x fa-skype">skype iD : yousafjamil345678</i>
-
-              <li>
-                <i class="fab fa-facebook"></i>face book iD: yousaf jamil
-              </li>
-              <li></li>
+              <i className="fab fa-2x fa-whatsapp-square">
+                whatsapp no: +923448307585
+              </i>
+              <br />
+              <i className="fab fa-2x fa-skype">skype iD : yousafjamil345678</i>
             </ul>
           </div>
         </div>

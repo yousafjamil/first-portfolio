@@ -1,5 +1,4 @@
 import React from "react";
-import Typed from "react-typed";
 import Typical from "react-typical";
 import Contact from "./Contact";
 import Services from "./Services";
@@ -7,12 +6,11 @@ import carousal1 from "./carousal1.jpg";
 import carousal2 from "./carousal2.jpg";
 import carousal3 from "./carousal3.jpg";
 import carousal4 from "./carousal4.jpg";
-import carousal5 from "./carousal5.jpg";
 import carousal6 from "./carousal6.jpg";
 
 import Carousel from "react-bootstrap/Carousel";
 import About from "./About";
-function Home(props) {
+function Home() {
   return (
     <>
       <div className="container-fluid home">
@@ -135,7 +133,7 @@ function Home(props) {
       </div>
 
       <div className="container mt-3">
-        <div class="row">
+        <div className="row">
           <div className="col-12">
             <About />
           </div>
@@ -144,7 +142,7 @@ function Home(props) {
 
       {/*services start   */}
       <div className="container mt-3">
-        <div class="row">
+        <div className="row">
           <div className="col-12">
             <Contact />
           </div>

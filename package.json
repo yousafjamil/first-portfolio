@@ -1,5 +1,5 @@
 {
-  "homepage":"http://yousafjamil.github.io/first-portfolio-website",
+  "homepage": "http://yousafjamil.github.io/first-portfolio-website",
   "name": "sanity",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,7 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
+    "react-icon": "^1.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-spring": "^8.0.27",
@@ -20,8 +21,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy":"npm  run  build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm  run  build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

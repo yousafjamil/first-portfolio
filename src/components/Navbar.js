@@ -25,7 +25,7 @@ function Navbar() {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon">
-            <i class="fas  fa-bars"></i>
+            <i className="fas  fa-bars"></i>
           </span>
         </button>
 
